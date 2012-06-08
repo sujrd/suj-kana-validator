@@ -1,3 +1,26 @@
-= RailsKanaValidator
+= KanaValidator
 
-This project rocks and uses MIT-LICENSE.
+Adds methods to validate if your strings are composed of only kana, hiragana, katakana or kanji
+only.
+
+== Usage
+
+class User < ActiveRecord::Base
+
+  validates_is_hiragana :name_hiragana, :allow_blank => true
+  validates_is_kanji :name_kanji
+
+end
+
+== Available validators
+
+  validates_is_kana
+  validates_is_kanji
+  validates_is_hiragana
+  validates_is_katakana
+  validates_is_half_katakana
+
+== Options
+
+  allow_blank - Default to true
+  allow_nil   - Deafult to true
