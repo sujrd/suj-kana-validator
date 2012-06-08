@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  name_kana: MyString
+  name_halfkana: MyString
+  name_hiragana: MyString
+
+two:
+  name: MyString
+  name_kana: MyString
+  name_halfkana: MyString
+  name_hiragana: MyString

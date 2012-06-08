@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @user.name %>
+</p>
+
+<p>
+  <b>Name kana:</b>
+  <%= @user.name_kana %>
+</p>
+
+<p>
+  <b>Name halfkana:</b>
+  <%= @user.name_halfkana %>
+</p>
+
+<p>
+  <b>Name hiragana:</b>
+  <%= @user.name_hiragana %>
+</p>
+
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>
